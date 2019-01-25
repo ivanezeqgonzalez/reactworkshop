@@ -14,11 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch(
-      `https://api.apixu.com/v1/forecast.json?key=${
-        process.env.REACT_APP_API_KEY
-      }&q=Buenos+Aires&days=6`,
-    )
+    fetch('https://wt-d533d1099172471b9b435b86f4497980-0.sandbox.auth0-extend.com/clima-apixu')
       .then(response => response.json())
       .then(jsonData => {
         jsonData.current.condition.icon = jsonData.current.condition.icon.replace(
