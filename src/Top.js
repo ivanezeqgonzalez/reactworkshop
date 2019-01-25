@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 // El archivo css no es necesario cargarlo ya que se carga en el componente padre
 
 // Indicamos que la función recibe props
