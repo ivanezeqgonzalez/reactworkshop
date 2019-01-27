@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import Top from './Top'
-import Bottom from './Bottom'
+import Top from './components/Top'
+import Bottom from './components/Bottom'
 
 class App extends Component {
   constructor(props) {
